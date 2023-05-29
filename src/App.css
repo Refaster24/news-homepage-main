@@ -159,6 +159,8 @@ button:hover{
 
 .sec3{
   display: flex;
+  flex-wrap:wrap;
+  gap:1em;
   align-items: stretch;
 }
 
@@ -167,6 +169,7 @@ button:hover{
 }
 
 .sec3-div {
+  flex-basis:26em;
   display: flex;
 }
 
@@ -187,7 +190,7 @@ button:hover{
 
 
 
-@media  screen and (max-width:500px){
+@media  screen and (max-width:600px){
   .div1{
     flex-direction: column;
     margin-bottom: 30px;
@@ -200,6 +203,7 @@ button:hover{
     flex-direction: column;
   }
   .sec3-div{
+    flex-basis: auto;
     margin-bottom: 20px;
   }
 
